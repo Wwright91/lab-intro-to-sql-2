@@ -1,4 +1,5 @@
 -- Getting started, do not update
+DROP TABLE IF EXISTS gifts;
 DROP DATABASE IF EXISTS regifter;
 CREATE DATABASE regifter;
 \c regifter
@@ -116,4 +117,3 @@ CREATE DATABASE regifter;
 --
 -- finish
 --
-DROP TABLE IF EXISTS gifts;
